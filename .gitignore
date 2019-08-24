@@ -6,3 +6,5 @@
 # User-specific stuff
 .idea/
 *.class
+out/
+oca.iml
