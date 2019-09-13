@@ -55,7 +55,7 @@ public class Example01
         /*
          *  => Important String Methods
          */
-        System.out.println("Important String Methods");
+        System.out.printf(" %s \n %s \n", "Important String Methods","========================");
          //  -> lenght() : it return the number of chars in the String.
         String string = "animals";
         System.out.printf("lentth() method will return for %s = %d %n", string,string.length());
@@ -126,6 +126,11 @@ public class Example01
         // Whitespaces consists of spaces, \t (tab) ,\n (newline) and \r.
         System.out.println("abc".trim()); // abc
         System.out.println("\t   a b c \n \r ".trim());
+
+        // Method Chaining
+        System.out.printf(" %s \n %s  \n", "Method Chaining","========================");
+
+
     }
 
 }
