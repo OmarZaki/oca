@@ -42,8 +42,6 @@ public class Example01 {
         float y3=13;
         double z3=30;
         System.out.printf("short (%d) * float (%f) / double (%f) = double (%f) %n ",x3,y3,z3, x3*y3/z3);
-
-
     }
 }
 
